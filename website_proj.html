@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pearl Morosky</title>
+    <link href="newstyle.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display|Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+    <script src=website.js></script>
+  </head>
+  <body>
+    <div class="row">
+      <div class="column left">
+        <img src = "Starcarbon.jpg"
+        id = "Starcarbon"
+        width="175"
+        height="250">
+        <p id="starcarbonbutton" onclick="starcarbonfunction()">Click here to learn more about Starcarbon!</p>
+        <script>
+          function starcarbonfunction() {
+            document.getElementById("starcarbonbutton").innerHTML = "Starcarbon is a family drama with healthy doses of romance and humor. It follows three couples and their struggles for love and fulfillment. It is set primarily in Charlotte, North Carolina and Tahlequa, Oklahoma.";
+          }
+        </script>
+      </div>
+      <div class="column middle">
+        <h1>Hi, my name is Pearl.</h1>
+        <div>I am a rising junior at LASA. I enjoy yoga, reading, and calligraphy. </div>
+        <div>Right now I am reading "Starcarbon" by Ellen Gilchrist.</div>
+        <div>My favorite TV show is Twin Peaks.</div>
+        <div>I like to travel. Last weekend I went on a trip to New Mexico, and while I was there, I visited White Sands.</div>
+        <div><a href="https://www.instagram.com/pearl.morosky/"> Check out my instagram! I have some posts from my recent travels. </a></div>
+        <figure>
+        <img src= "WhiteSands.jpg">
+        </figure>
+        <p id="whitesandsbutton" onclick="whitesandsfunction()">Click here to learn more about White Sands!</p>
+        <script>
+          function whitesandsfunction() {
+              document.getElementById("whitesandsbutton").innerHTML = "White Sands is the world's largest gypsum dune field. White Sands National Monument is located outside of Alamogordo, New Mexico, which is in Southern Central New Mexico.";
+          }
+        </script>
+      </div>
+      <div class="column right">
+        <img src = "twinpeaks.jpg"
+        id = "twinpeaks"
+        width="175"
+        height="250">
+        <p id="twinpeaksbutton" onclick="twinpeaksfunction()">Click here to learn more about Twin Peaks!</p>
+        <script>
+          function twinpeaksfunction() {
+            document.getElementById("twinpeaksbutton").innerHTML = "Twin Peaks is a show about a girl who was killed in the town of Twin Peaks, Washington. It is a little bit murder mystery, a little bit supernatural and a little bit romance. No offense to Riverdale Fans, but this is like a good version of Riverdale.";
+          }
+        </script>
+      </div>
+    </div>
+  </body>
+</html>

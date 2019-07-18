@@ -1,0 +1,15 @@
+h1{
+  color: #440D0F;
+  font-family: 'DM Serif Display', serif;
+  font-size: 30px;
+  text-align: center
+}
+body {
+  color: #440D0F;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+  background-color: #E0D3DE;
+  text-align: center
+}
+
+body {border: 10px solid #440D0F}

@@ -1,0 +1,53 @@
+h1{
+  color: #2C6095;
+  font-family: 'DM Serif Display', serif;
+  font-size: 30px;
+  text-align: center
+}
+body {
+  border-width:  10px;
+  border-style:double;
+  border-color: #2C6095;
+  height: 725px;
+  color: #788DB3;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 25px;
+  background-color:#EDF6FC;
+  text-align: center
+}
+
+#Starcarbon {
+  margin-top: 100px
+}
+#twinpeaks {
+  margin-top: 100px
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.left, .right {
+  width: 25%;
+}
+
+.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+
+
+   #E0D3DE;
+   #440D0F;
